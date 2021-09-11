@@ -1,14 +1,14 @@
 
 import * as api from '../src/api';
-import defaultapi from '../src/api';
-import {NBSObject} from '../src/NBSObject';
+import {Application} from '../src/Application';
+import {ApplicationView} from '../src/ApplicationView';
 
 describe('Public API', () => {
-    it('NBSObject', () => {
-        expect(api.NBSObject).toBe(NBSObject);
+    it('Application', () => {
+        expect(api.Application).toBe(Application);
     });
 
-    it('default export', () => {
-        expect(defaultapi).toBe(NBSObject);
+    it('ApplicationView', () => {
+        expect(api.ApplicationView).toBe(ApplicationView);
     });
 });
