@@ -1,12 +1,12 @@
 
-// import * as React from 'react';
+import * as React from 'react';
 import {
     IApplicationConfig,
-    IVersion,
-    ILoggerManager
+    IVersion
 } from '@nbsolutions/interfaces';
-import {Application} from './Application';
+import {Application} from '../Application';
 import {ViewComponent, IViewComponentProps, IViewComponentState} from '@nbsolutions/view-component';
+import styles from './ApplicationView.scss';
 
 export interface IApplicationProps<TApplicationConfig extends IApplicationConfig = IApplicationConfig> extends IViewComponentProps {
     controller: Application<TApplicationConfig>;
@@ -15,18 +15,28 @@ export interface IApplicationProps<TApplicationConfig extends IApplicationConfig
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 export interface IApplicationState extends IViewComponentState {}
 
-export abstract class ApplicationView<
+export class ApplicationView<
     TApplicationConfig extends IApplicationConfig = IApplicationConfig,
-    TApplicationProps extends IApplicationProps<TApplicationConfig> = IApplicationProps<TApplicationConfig>,
-    TApplicationState extends IApplicationState = IApplicationState
-> extends ViewComponent<TApplicationProps, TApplicationState> {
-    private $lm: ILoggerManager;
+    TApplicationProps extends IApplicationProps<TApplicationConfig> = IApplicationProps<TApplicationConfig>
+> extends ViewComponent<TApplicationProps, IApplicationState> {
     
     public constructor(props: TApplicationProps) {
         super(props);
     }
 
-    protected abstract _getInitialState(props: TApplicationProps): TApplicationState;
+    protected _getInitialState(props: IApplicationState): IApplicationState {
+        return {};
+    }
+
+    public componentDidMount(): void {
+        super.componentDidMount();
+        styles.use();
+    }
+
+    public componentWillUnmount(): void {
+        super.componentWillUnmount();
+        styles.unuse();
+    }
 
     public getName(): string {
         return this.props.controller.getName();
@@ -38,5 +48,13 @@ export abstract class ApplicationView<
 
     public getVersion(): IVersion {
         return this.props.controller.getVersion();
+    }
+
+    public render(): JSX.Element {
+        return (
+            <div className={this.getClassName()}>
+                {this.props.children}
+            </div>
+        );
     }
 }
