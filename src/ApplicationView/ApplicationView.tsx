@@ -44,7 +44,7 @@ export class ApplicationView<
         return this.props.controller.getVersion();
     }
 
-    public render(): JSX.Element {
+    public render(): React.ReactNode {
         return (
             <div className={this.getClassName()}>
                 {this.props.children}

@@ -43,7 +43,7 @@
     "@nbsolutions/eslint-plugin": "1.0.0",
     "@nbsolutions/interfaces": "0.0.0-alpha.0",
     "@nbsolutions/object": "0.0.0-alpha.0",
-    "@nbsolutions/view-component": "0.0.0-alpha.2",
+    "@nbsolutions/view-component": "0.0.0-alpha.3",
     "@types/jest": "27.0.1",
     "@types/react": "17.0.20",
     "@typescript-eslint/eslint-plugin": "4.31.0",
@@ -67,7 +67,7 @@
   "peerDependencies": {
     "@nbsolutions/interfaces": "0.0.0-alpha.0",
     "@nbsolutions/object": "0.0.0-alpha.0",
-    "@nbsolutions/view-component": "0.0.0-alpha.2",
+    "@nbsolutions/view-component": "0.0.0-alpha.3",
     "react": "17.x"
   },
   "dependencies": {
