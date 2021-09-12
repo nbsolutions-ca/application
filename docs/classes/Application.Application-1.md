@@ -1,4 +1,4 @@
-[@nbsolutions/application - v0.0.0-alpha.1](../README.md) / [Exports](../modules.md) / [Application](../modules/Application.md) / Application
+[@nbsolutions/application - v0.0.0-alpha.2](../README.md) / [Exports](../modules.md) / [Application](../modules/Application.md) / Application
 
 # Class: Application<TApplicationConfig\>
 
@@ -127,7 +127,7 @@ IApplication.getConfig
 
 #### Defined in
 
-[src/Application.ts:18](https://github.com/nbsolutions-ca/application/blob/01ea396/src/Application.ts#L18)
+[src/Application.ts:18](https://github.com/nbsolutions-ca/application/blob/70a499d/src/Application.ts#L18)
 
 ___
 
@@ -145,7 +145,7 @@ IApplication.getName
 
 #### Defined in
 
-[src/Application.ts:14](https://github.com/nbsolutions-ca/application/blob/01ea396/src/Application.ts#L14)
+[src/Application.ts:14](https://github.com/nbsolutions-ca/application/blob/70a499d/src/Application.ts#L14)
 
 ___
 
@@ -163,7 +163,7 @@ IApplication.getVersion
 
 #### Defined in
 
-[src/Application.ts:22](https://github.com/nbsolutions-ca/application/blob/01ea396/src/Application.ts#L22)
+[src/Application.ts:22](https://github.com/nbsolutions-ca/application/blob/70a499d/src/Application.ts#L22)
 
 ___
 

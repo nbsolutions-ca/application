@@ -1,4 +1,4 @@
-[@nbsolutions/application - v0.0.0-alpha.1](../README.md) / [Exports](../modules.md) / [ApplicationView/ApplicationView](../modules/ApplicationView_ApplicationView.md) / ApplicationView
+[@nbsolutions/application - v0.0.0-alpha.2](../README.md) / [Exports](../modules.md) / [ApplicationView/ApplicationView](../modules/ApplicationView_ApplicationView.md) / ApplicationView
 
 # Class: ApplicationView<TApplicationConfig, TApplicationProps\>
 
@@ -37,6 +37,7 @@
 - [UNSAFE\_componentWillReceiveProps](ApplicationView_ApplicationView.ApplicationView.md#unsafe_componentwillreceiveprops)
 - [UNSAFE\_componentWillUpdate](ApplicationView_ApplicationView.ApplicationView.md#unsafe_componentwillupdate)
 - [\_getInitialState](ApplicationView_ApplicationView.ApplicationView.md#_getinitialstate)
+- [\_getUsableStyles](ApplicationView_ApplicationView.ApplicationView.md#_getusablestyles)
 - [componentDidCatch](ApplicationView_ApplicationView.ApplicationView.md#componentdidcatch)
 - [componentDidMount](ApplicationView_ApplicationView.ApplicationView.md#componentdidmount)
 - [componentDidUpdate](ApplicationView_ApplicationView.ApplicationView.md#componentdidupdate)
@@ -79,7 +80,7 @@ ViewComponent&lt;TApplicationProps, IApplicationState\&gt;.constructor
 
 #### Defined in
 
-[src/ApplicationView/ApplicationView.tsx:23](https://github.com/nbsolutions-ca/application/blob/01ea396/src/ApplicationView/ApplicationView.tsx#L23)
+[src/ApplicationView/ApplicationView.tsx:23](https://github.com/nbsolutions-ca/application/blob/70a499d/src/ApplicationView/ApplicationView.tsx#L23)
 
 ## Properties
 
@@ -328,7 +329,25 @@ ViewComponent.\_getInitialState
 
 #### Defined in
 
-[src/ApplicationView/ApplicationView.tsx:27](https://github.com/nbsolutions-ca/application/blob/01ea396/src/ApplicationView/ApplicationView.tsx#L27)
+[src/ApplicationView/ApplicationView.tsx:27](https://github.com/nbsolutions-ca/application/blob/70a499d/src/ApplicationView/ApplicationView.tsx#L27)
+
+___
+
+### \_getUsableStyles
+
+▸ `Protected` **_getUsableStyles**(): `IUsable`
+
+#### Returns
+
+`IUsable`
+
+#### Overrides
+
+ViewComponent.\_getUsableStyles
+
+#### Defined in
+
+[src/ApplicationView/ApplicationView.tsx:31](https://github.com/nbsolutions-ca/application/blob/70a499d/src/ApplicationView/ApplicationView.tsx#L31)
 
 ___
 
@@ -368,13 +387,13 @@ ___
 
 `void`
 
-#### Overrides
+#### Inherited from
 
 ViewComponent.componentDidMount
 
 #### Defined in
 
-[src/ApplicationView/ApplicationView.tsx:31](https://github.com/nbsolutions-ca/application/blob/01ea396/src/ApplicationView/ApplicationView.tsx#L31)
+node_modules/@nbsolutions/view-component/types/ViewComponent.d.ts:13
 
 ___
 
@@ -486,13 +505,13 @@ ___
 
 `void`
 
-#### Overrides
+#### Inherited from
 
 ViewComponent.componentWillUnmount
 
 #### Defined in
 
-[src/ApplicationView/ApplicationView.tsx:36](https://github.com/nbsolutions-ca/application/blob/01ea396/src/ApplicationView/ApplicationView.tsx#L36)
+node_modules/@nbsolutions/view-component/types/ViewComponent.d.ts:14
 
 ___
 
@@ -573,7 +592,7 @@ ViewComponent.getClassName
 
 #### Defined in
 
-node_modules/@nbsolutions/view-component/types/ViewComponent.d.ts:9
+node_modules/@nbsolutions/view-component/types/ViewComponent.d.ts:12
 
 ___
 
@@ -587,7 +606,7 @@ ___
 
 #### Defined in
 
-[src/ApplicationView/ApplicationView.tsx:45](https://github.com/nbsolutions-ca/application/blob/01ea396/src/ApplicationView/ApplicationView.tsx#L45)
+[src/ApplicationView/ApplicationView.tsx:39](https://github.com/nbsolutions-ca/application/blob/70a499d/src/ApplicationView/ApplicationView.tsx#L39)
 
 ___
 
@@ -601,7 +620,7 @@ ___
 
 #### Defined in
 
-[src/ApplicationView/ApplicationView.tsx:41](https://github.com/nbsolutions-ca/application/blob/01ea396/src/ApplicationView/ApplicationView.tsx#L41)
+[src/ApplicationView/ApplicationView.tsx:35](https://github.com/nbsolutions-ca/application/blob/70a499d/src/ApplicationView/ApplicationView.tsx#L35)
 
 ___
 
@@ -647,7 +666,7 @@ ___
 
 #### Defined in
 
-[src/ApplicationView/ApplicationView.tsx:49](https://github.com/nbsolutions-ca/application/blob/01ea396/src/ApplicationView/ApplicationView.tsx#L49)
+[src/ApplicationView/ApplicationView.tsx:43](https://github.com/nbsolutions-ca/application/blob/70a499d/src/ApplicationView/ApplicationView.tsx#L43)
 
 ___
 
@@ -665,7 +684,7 @@ ViewComponent.render
 
 #### Defined in
 
-[src/ApplicationView/ApplicationView.tsx:53](https://github.com/nbsolutions-ca/application/blob/01ea396/src/ApplicationView/ApplicationView.tsx#L53)
+[src/ApplicationView/ApplicationView.tsx:47](https://github.com/nbsolutions-ca/application/blob/70a499d/src/ApplicationView/ApplicationView.tsx#L47)
 
 ___
 

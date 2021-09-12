@@ -1,4 +1,4 @@
-[@nbsolutions/application - v0.0.0-alpha.1](../README.md) / [Exports](../modules.md) / Application
+[@nbsolutions/application - v0.0.0-alpha.2](../README.md) / [Exports](../modules.md) / Application
 
 # Module: Application
 
