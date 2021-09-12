@@ -2,13 +2,6 @@
 const Path = require('path');
 
 module.exports = (env, argv) => {
-    // console.log('ENV', env, argv);
-    // let optimization;
-
-    // if (env.mode === 'development') {
-        
-    // }
-
     return {
         entry: './src/api.ts',
         devtool: 'source-map',
@@ -54,7 +47,8 @@ module.exports = (env, argv) => {
         externals: {
             'react': 'react',
             '@nbsolutions/interfaces': '@nbsolutions/interfaces',
-            '@nbsolutions/object': '@nbsolutions/object'
+            '@nbsolutions/object': '@nbsolutions/object',
+            '@nbsolutions/view-component': '@nbsolutions/view-component'
         },
         optimization: {
             minimize: false

@@ -5,7 +5,7 @@ import {
     IVersion
 } from '@nbsolutions/interfaces';
 import {Application} from '../Application';
-import {ViewComponent, IViewComponentProps, IViewComponentState} from '@nbsolutions/view-component';
+import {ViewComponent, IViewComponentProps, IViewComponentState, IUsable} from '@nbsolutions/view-component';
 import styles from './ApplicationView.scss';
 
 export interface IApplicationProps<TApplicationConfig extends IApplicationConfig = IApplicationConfig> extends IViewComponentProps {
@@ -28,14 +28,8 @@ export class ApplicationView<
         return {};
     }
 
-    public componentDidMount(): void {
-        super.componentDidMount();
-        styles.use();
-    }
-
-    public componentWillUnmount(): void {
-        super.componentWillUnmount();
-        styles.unuse();
+    protected _getUsableStyles(): IUsable {
+        return styles;
     }
 
     public getName(): string {
