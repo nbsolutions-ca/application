@@ -2,7 +2,7 @@
     "compilerOptions": {
         "target": "es3",
         "declaration": true,
-        "declarationDir": "./types",
+        "declarationDir": "./lib/types",
         "sourceMap": true,
         "outDir": "./lib",
         "importHelpers": true,

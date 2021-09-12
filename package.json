@@ -2,8 +2,8 @@
   "name": "@nbsolutions/application",
   "version": "0.0.0",
   "description": "Application for NBS framework",
-  "main": "./lib/api.js",
-  "types": "./types/api.d.ts",
+  "main": "./lib/application.js",
+  "types": "./lib/types/api.d.ts",
   "scripts": {
     "lint": "eslint --ext .ts,.tsx '?(src|spec)/**/*.?(ts|tsx)' --cache",
     "docs": "typedoc --excludePrivate --includeVersion -readme ./README.md --out ./docs ./src",

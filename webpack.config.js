@@ -6,7 +6,7 @@ module.exports = {
     devtool: 'source-map',
     output: {
         path: Path.resolve(__dirname, './lib'),
-        filename: 'app.js',
+        filename: 'application.js',
         library: {
             type: 'commonjs2'
         },
@@ -21,7 +21,10 @@ module.exports = {
                 test: /\.scss$/,
                 use: [
                     {
-                        loader: 'style-loader'
+                        loader: 'style-loader',
+                        options: {
+                            injectType: 'lazyStyleTag'
+                        }
                     },
                     {
                         loader: 'css-loader'
