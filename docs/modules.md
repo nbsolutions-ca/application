@@ -1,6 +1,6 @@
-[@nbsolutions/application - v0.0.0-alpha.0](README.md) / Exports
+[@nbsolutions/application - v0.0.0-alpha.1](README.md) / Exports
 
-# @nbsolutions/application - v0.0.0-alpha.0
+# @nbsolutions/application - v0.0.0-alpha.1
 
 ## Table of contents
 

@@ -1,4 +1,4 @@
-[@nbsolutions/application - v0.0.0-alpha.0](../README.md) / [Exports](../modules.md) / [ApplicationView/ApplicationView](../modules/ApplicationView_ApplicationView.md) / IApplicationProps
+[@nbsolutions/application - v0.0.0-alpha.1](../README.md) / [Exports](../modules.md) / [ApplicationView/ApplicationView](../modules/ApplicationView_ApplicationView.md) / IApplicationProps
 
 # Interface: IApplicationProps<TApplicationConfig\>
 
@@ -30,4 +30,4 @@
 
 #### Defined in
 
-[src/ApplicationView/ApplicationView.tsx:12](https://github.com/nbsolutions-ca/application/blob/046eff3/src/ApplicationView/ApplicationView.tsx#L12)
+[src/ApplicationView/ApplicationView.tsx:12](https://github.com/nbsolutions-ca/application/blob/01ea396/src/ApplicationView/ApplicationView.tsx#L12)
