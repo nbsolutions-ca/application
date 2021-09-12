@@ -1,10 +1,11 @@
-[@nbsolutions/object - v0.0.0](README.md) / Exports
+[@nbsolutions/application - v0.0.0-alpha.0](README.md) / Exports
 
-# @nbsolutions/object - v0.0.0
+# @nbsolutions/application - v0.0.0-alpha.0
 
 ## Table of contents
 
 ### Modules
 
-- [NBSObject](modules/nbsobject.md)
+- [Application](modules/Application.md)
+- [ApplicationView/ApplicationView](modules/ApplicationView_ApplicationView.md)
 - [api](modules/api.md)

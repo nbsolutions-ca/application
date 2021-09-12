@@ -1,4 +1,4 @@
-[@nbsolutions/object - v0.0.0](../README.md) / [Exports](../modules.md) / api
+[@nbsolutions/application - v0.0.0-alpha.0](../README.md) / [Exports](../modules.md) / api
 
 # Module: api
 
@@ -6,17 +6,17 @@
 
 ### References
 
-- [NBSObject](api.md#nbsobject)
-- [default](api.md#default)
+- [Application](api.md#application)
+- [ApplicationView](api.md#applicationview)
 
 ## References
 
-### NBSObject
+### Application
 
-Re-exports: [NBSObject](../classes/nbsobject.nbsobject-1.md)
+Re-exports: [Application](../classes/Application.Application-1.md)
 
 ___
 
-### default
+### ApplicationView
 
-Renames and exports: [NBSObject](../classes/nbsobject.nbsobject-1.md)
+Re-exports: [ApplicationView](../classes/ApplicationView_ApplicationView.ApplicationView.md)
