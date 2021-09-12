@@ -1,6 +1,6 @@
 {
   "name": "@nbsolutions/application",
-  "version": "0.0.0-alpha.0",
+  "version": "0.0.0-alpha.1",
   "description": "Application for NBS framework",
   "main": "./lib/application.js",
   "types": "./lib/types/api.d.ts",
